@@ -18,7 +18,7 @@ const MuiSelect = () => {
         fullWidth
         size="medium"
         color="secondary"
-        helperText="please select the country"
+        helperText="please select the country  "
         SelectProps={{
           multiple: true,
         }}
