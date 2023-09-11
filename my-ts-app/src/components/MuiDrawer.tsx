@@ -12,6 +12,7 @@ const MuiDrawer = () => {
         color="inherit"
         aria-label="logo"
       >
+        console.log("umar")
         <MenuIcon />
       </IconButton>
       <Drawer
