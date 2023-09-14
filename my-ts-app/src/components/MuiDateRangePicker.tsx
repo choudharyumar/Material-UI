@@ -14,7 +14,7 @@ const MuiDateRangePicker = () => {
         onChange={(newValue: DateRange<Date>) => {
           setValue(newValue);
         }}
-        renderInput={(startProps, endProps) => (
+        renderInput={(startProps: any, endProps: any) => (
           <>
             <TextField {...startProps} />
             <Box sx={{ mx: 2 }}> to </Box>
